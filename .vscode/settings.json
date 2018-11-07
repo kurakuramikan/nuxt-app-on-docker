@@ -1,0 +1,47 @@
+{
+  "editor.rulers": [
+    128
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "diffEditor.renderSideBySide": false, // Git の差分を行内に表示
+  "editor.colorDecorators": false, // カラーデコレーターを非表示
+  "editor.tabCompletion": true, // プレフィックスが一致する場合、Tabを押したときにスニペットを挿入する
+  "editor.formatOnPaste": true, // ペースト時に自動でフォーマット
+  "editor.formatOnSave": true, // ファイル保存時に自動でフォーマット
+  "editor.formatOnType": true, // 入力した行を自動でフォーマット
+  "editor.minimap.renderCharacters": false, // ミニマップの表示文字をブロックに変更
+  "editor.minimap.showSlider": "always", // 表示領域をミニマップで常にハイライト
+  "editor.renderControlCharacters": true, // 制御文字を表示
+  "editor.renderLineHighlight": "all", // 選択行を行番号含めすべてハイライト
+  "editor.renderWhitespace": "all", // 半角スペースを常に表示
+  "editor.tabSize": 2, // タブのサイズ変更
+  "explorer.confirmDelete": false, // ファイル削除時の確認を表示しない
+  "files.associations": { // ファイルと言語の関連付けを変更
+    ".*lintrc": "json"
+  },
+  "files.exclude": { // エクスプローラーから非表示にするファイル
+    "node_modules": true,
+    ".cache": true
+  },
+  "files.watcherExclude": { // モニタリングから除外する
+    "**/.git/objects/**": true,
+    "**/node_modules/**": true,
+    ".cache/**": true,
+    "dist/**": true
+  },
+  "files.insertFinalNewline": true, // ファイルの保存時に末尾を改行
+  "files.trimFinalNewlines": true, // ファイルの保存時に最終行以降をトリミング
+  "files.trimTrailingWhitespace": true, // ファイルの保存時に行末の空白をトリミング
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false // Markdown のファイルは行末の空白をトリミングしない
+  },
+  "html.format.contentUnformatted": "pre, code, textarea, title, h1, h2, h3, h4, h5, h6, p", // タグ内の記述はフォーマットしない
+  "html.format.extraLiners": "", // head, body, /html タグの前に改行を入れない
+  "html.format.unformatted": null, // フレージング・コンテンツ（旧インライン要素のようなタグ）はフォーマットしない
+  "html.format.wrapLineLength": 0, // 行の文字数制限を無くし自動で改行させない
+  "search.exclude": { // 検索対象外にするファイル設定（ files.exclude のファイルも含む）
+    "**/tmp": true
+  },
+  "workbench.editor.labelFormat": "short", // タブに表示する文字列の設定
+  "workbench.editor.tabSizing": "shrink" // タブの表示設定
+}
