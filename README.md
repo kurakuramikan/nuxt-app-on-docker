@@ -7,6 +7,36 @@
 | Visual Studio Code (VS Code) | Editor                 |                                       |
 
 
+## How to Setup
+The following are how to setup for macOS in development environment.
+
+1. Install [Docker](https://www.docker.com/products/docker-desktop) and docker-compose to build containers to run this project on your local.
+2. Run `docker-compose up` to create and run containers.
+3. You can develop it if you access `http://localhost:3000`.
+
+
+## Docker commands
+
+- `docker run -it --rm <container id> sh`: Create and connect container
+- `docker run -it --rm <container id> --start`: Run `yarn && yarn nuxt`
+- `docker run -it --rm <container id> --build`: Run `yarn build`
+
+> Commonly Used Commands
+> 
+> ```
+> `docker build -f <Dockerfile path> <project root path(default: .)>`: Build Docker
+> `docker rmi <Docker image id>`: Remove Docker image
+> `docker rm <container id>`: Remove container
+> 
+> `docker exec -it <container id> <run command>`: Connect running contaier
+> options
+>   `--rm`: Delete the container when you exit the container
+>   `-v <Mac absolute path>:<Container absolute path>`: Synchronize specified directories
+>   `-p <Mac port>:<Container port>`: Synchronize specified port
+>   `--name`: Name container
+> ```
+
+
 ## Environments
 The following is environments in this project.
 
