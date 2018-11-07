@@ -1,0 +1,13 @@
+version: "3.7"
+services:
+  web:
+    container_name: nuxt-app
+    volumes:
+      - ".:/var/www/nuxt-app"
+    stdin_open: true
+    tty: true
+    build:
+      context: "."
+      dockerfile: "./.docker/web.Dockerfile"
+    ports:
+      - "3000:3000"
