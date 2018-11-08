@@ -1,0 +1,17 @@
+# Hidden files created by OS.
+Thumbs.db
+desktop.ini
+.DS_Store
+.DS_STORE
+
+# Hidden files created by users.
+.dockerignore
+.git*
+README.md
+.vscode
+
+# files created by npm.
+node_modules
+
+# files created by nuxt.
+.nuxt
