@@ -14,14 +14,12 @@
   },
   "dependencies": {
     "cross-env": "^5.2.0",
-    "nuxt": "^2.0.0",
-    "element-ui": "^2.4.6"
+    "nuxt": "^2.3.4",
+    "element-ui": "^2.4.11",
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/pwa": "^2.6.0"
   },
   "devDependencies": {
-    "nodemon": "^1.11.0",
-    "babel-eslint": "^8.2.1",
-    "eslint": "^5.0.1",
-    "eslint-loader": "^2.0.0",
-    "eslint-plugin-vue": "^4.0.0"
+    "nodemon": "^1.18.9"
   }
 }
