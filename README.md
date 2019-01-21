@@ -44,6 +44,12 @@ The following is environments in this project.
 |:-----------------|:---------------|:-----------------|:------------|
 | `development`    | Localhost      | `localhost:3000` |             |
 
+### Installation
+- Choose between integrated server-side frameworks: None (Nuxt default server)
+- Check the features needed for your project: PWA, Axios
+- Choose your favorite UI framework: Element UI
+- Choose your favorite test framework: None
+
 
 ## Commit Rules
 1. ブランチの運用
